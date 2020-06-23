@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int angka;
+	bool Hasil;
+	cout << "Masukan angka = ";
+	cin >> angka;
+	Hasil = angka > 10;
+	cout << Hasil;
+}
