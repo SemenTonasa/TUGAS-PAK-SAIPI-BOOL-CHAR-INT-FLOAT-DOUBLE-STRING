@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	string nama;
+	cout << "Siapa nama anda? ";
+	getline (cin, nama);
+	cout << "Hello " <<nama<< ".\n";
+	cout << "Apa nama tim favorit anda? ";
+	getline (cin, nama);
+	cout << "Saya suka " <<nama<< " banget!\n";
+	return 0;
+}
